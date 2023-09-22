@@ -19,6 +19,6 @@ cmake --build .
 Build potato:
 ```
 cd build
-cmake ../
+cmake ../ -DCMAKE_BUILD_TYPE=RelWithDebInfo
 cmake --build .
 ```
